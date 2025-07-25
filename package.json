@@ -2,7 +2,7 @@
   "name": "@willin/biome-config",
   "description": "A most commonly used Biome configuration.",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": "./biome.json"
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@types/bun": "latest"
+    "@types/bun": "^1.2.19"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
