@@ -2,7 +2,7 @@
   "name": "@willin/biome-config",
   "description": "A most commonly used Biome configuration.",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "exports": {
     ".": "./biome.json"
@@ -11,7 +11,7 @@
     "check": "biome check --write --no-errors-on-unmatched --unsafe ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^2.1.2",
     "@types/bun": "^1.2.19"
   },
   "peerDependencies": {
